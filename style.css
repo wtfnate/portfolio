@@ -1,8 +1,9 @@
 #grid {
   display: grid;
-  gap: 25px;
+  gap: 150px;
   grid-template: repeat(16, 1fr) / repeat(2, 1fr); /* 16 rows × 2 columns = 32 slots */
   grid-auto-flow: column;
+  margin: 150px;
 }
 
 #grid img {
@@ -12,5 +13,5 @@
 }
 
 body {
-  background-color: #252525;
+  background-color: #111111;
 }
