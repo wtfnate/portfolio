@@ -1,9 +1,9 @@
 #grid {
   display: grid;
-  gap: 25px;
+  gap: 15px;
   grid-template: repeat(16, 1fr) / repeat(2, 1fr); /* 16 rows × 2 columns = 32 slots */
   grid-auto-flow: column;
-  margin: 8%;
+  margin: 10%;
 }
 
 #grid img {
